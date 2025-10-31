@@ -6,30 +6,34 @@
   <title>Availability Form</title>
 </head>
 <body>
-  <h2 style="text-align:center; color:#ff9900;">Send us a sitting request!</h2>
+  <!-- Back to Home button in top-left -->
+  <a href="index.html" style="position:absolute; top:20px; left:20px; text-decoration:none;">
+    <button style="
+      background-color: #ff9900;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      font-size: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+    ">
+      ⬅️ Home
+    </button>
+  </a>
 
-  <div style="position: relative; width: 100%; height: 0; padding-bottom: 150%;">
+  <h2 style="text-align:center; color:#ff9900; margin-top:60px;">Send us a sitting request!</h2>
+
+  <div style="text-align:center; margin-top:20px;">
     <iframe 
       src="https://docs.google.com/forms/d/e/1FAIpQLSf_MdW6N-WZtWy2IgJr4CtmYqEDN_A_vJT8TWnF7_eXBMKnTA/viewform?embedded=true"
-      style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;">
+      width="640"
+      height="1500"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      style="max-width: 100%; border: none;">
       Loading…
     </iframe>
-  </div>
-
-  <div style="text-align:center; margin-top: 30px;">
-    <a href="index.html">
-      <button style="
-        background-color: #ff9900;
-        color: white;
-        border: none;
-        padding: 12px 24px;
-        font-size: 16px;
-        border-radius: 8px;
-        cursor: pointer;
-      ">
-        ⬅️ Back to Home
-      </button>
-    </a>
   </div>
 </body>
 </html>
